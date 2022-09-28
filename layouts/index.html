@@ -10,7 +10,7 @@
             <a href="{{.Permalink}}">{{.Title}}</a>
           </li>
           <li>
-            {{.Date.Format "01/02/2006"}} - #{{.Title}}
+            {{.Date.Format "01/02/2006"}} - #{{.Params.tags}}
           </li>
         {{ end }}
         {{ end }}

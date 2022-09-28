@@ -1,7 +1,7 @@
 ---
 title: "Spacebin Rewrite Considerations"
 date: 2022-09-21
-tag: programming
+tags: programming
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed risus lectus. Donec commodo libero eros, vitae maximus quam pharetra et. Nunc orci lorem, congue sit amet augue sed, convallis faucibus eros. Suspendisse eu erat ullamcorper, semper neque vel, dictum nulla. Ut ultrices pulvinar erat, ornare vestibulum ex tempus eget. Vivamus sollicitudin varius lorem sit amet venenatis. Duis ac pellentesque est, non auctor sem. Aenean lobortis, dolor vel aliquet vehicula, metus metus ullamcorper mi, id bibendum magna lectus eu elit. Nullam tristique eros tellus, a egestas dui ultricies id. Maecenas eleifend ipsum in tellus luctus molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer lobortis enim neque, pellentesque ultrices leo malesuada eget. Pellentesque malesuada accumsan dapibus. Sed lectus nunc, pretium eget tortor et, lobortis aliquet augue. Phasellus sit amet laoreet massa. Aliquam erat volutpat.
