@@ -1,0 +1,4 @@
+baseURL = 'https://lukewhritenour.me/'
+languageCode = 'en-us'
+title = 'Luke Whritenour'
+enableRobotsTXT = true

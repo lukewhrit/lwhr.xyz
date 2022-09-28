@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <article>
+    {{.Content}}
+    <section id="posts">
+      <h2>Blog Posts</h2>
+      <ul>
+        {{ range (where .Site.Pages "Section" "posts") }}
+        {{ range .Pages }}
+          <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+          </li>
+          <li>
+            {{.Date.Format "01/02/2006"}} - #{{.Title}}
+          </li>
+        {{ end }}
+        {{ end }}
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Information</h2>
+        <p>
+          If you need to contact me feel free to email me
+          <a href="mailto:lukewhrit@proton.me">lukewhrit@proton.me</a>
+          or use the form below.
+        </p>
+        <form id="contact" class="" action="#" method="POST" accept-charset="UTF-8" enctype="multipart/form-data">
+          <input id="name" class="" type="text" placeholder="Your Name">
+          <input id="subject" class="" type="text" placeholder="Email Subject">
+
+          <textarea id="message" class="" placeholder="Content..."></textarea>
+
+          <input id="address" class="" name="email" type="text" placeholder="Your Email Address">
+
+          <input id="submit" class="" type="submit" value="Send Email" />
+        </form>
+      </section>
+  </article>
+{{ end }}
