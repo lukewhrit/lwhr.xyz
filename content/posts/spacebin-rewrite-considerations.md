@@ -1,5 +1,5 @@
 ---
-title: "Spacebin Rewrite Considerations"
+title: "Spacebin Rewrite"
 date: 2022-09-21
 tags: programming
 ---
@@ -10,5 +10,20 @@ Maecenas egestas porta nisi, nec aliquet lacus condimentum a. Duis pellentesque 
 
 Maecenas efficitur, enim vel ultrices pretium, felis justo mollis enim, ut volutpat ex diam id velit. Vestibulum lobortis scelerisque neque in sollicitudin. Integer bibendum tempor massa a dignissim. Quisque a orci dui. Ut tincidunt fringilla quam, vel scelerisque libero sodales eget. Donec imperdiet est ut urna ultrices porttitor. Quisque congue, risus ut finibus dignissim, est libero maximus eros, ac lobortis risus est ut quam. Nullam egestas eros eu lacinia hendrerit. Cras vel lacus ipsum. Aenean et nibh consectetur, dictum metus in, lacinia enim. Quisque in sem at diam porta tempor. Vestibulum a risus augue. Sed neque diam, mattis id consectetur nec, iaculis quis justo.
 
+## Quis Justo
+
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut scelerisque, ex aliquet cursus tristique, purus sem varius risus, eget aliquam lorem dui sed metus. Sed eget tristique ipsum. Aliquam id dolor suscipit mi imperdiet imperdiet. Maecenas egestas facilisis leo, nec mollis sapien venenatis nec. Ut ultrices eleifend ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur posuere, dui a ullamcorper rhoncus, justo leo luctus magna, sed tempus orci nunc a neque. Mauris vitae mattis est, in eleifend nibh. In hac habitasse platea dictumst. Quisque congue tellus non vestibulum auctor. Pellentesque lacinia metus sed nunc commodo, vel venenatis quam pretium. Aliquam nec faucibus nulla, congue pellentesque dolor. Curabitur vitae sagittis magna, et malesuada justo. Morbi tincidunt scelerisque nibh, et congue eros tempor eu. Morbi gravida, diam quis aliquam lobortis, metus nisl dignissim enim, in pharetra mauris purus consectetur massa.
 
+```js
+function main() {
+  console.log('Hello, world!');
+}
+
+main();
+```
+
+> test
+
+| x | x |
+|---|---|
+| t | y |

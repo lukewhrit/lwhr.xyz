@@ -2,3 +2,7 @@ baseURL = 'https://lukewhritenour.me/'
 languageCode = 'en-us'
 title = 'Luke Whritenour'
 enableRobotsTXT = true
+
+[author]
+name = "Luke Whritenour"
+email = "lukewhrit@proton.me"

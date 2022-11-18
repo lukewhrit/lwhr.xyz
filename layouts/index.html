@@ -3,36 +3,24 @@
     {{.Content}}
     <section id="posts">
       <h2>Blog Posts</h2>
-      <ul>
+      <ul id="posts">
         {{ range (where .Site.Pages "Section" "posts") }}
         {{ range .Pages }}
+          {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+          {{ $dateFormat := .Site.Params.dateFormat | default "January 2, 2006" }}
           <li>
             <a href="{{.Permalink}}">{{.Title}}</a>
-          </li>
-          <li>
-            {{.Date.Format "01/02/2006"}} - #{{.Params.tags}}
+            <span>
+              Posted on
+              <time dateTime="{{ $dateTime }}">
+                {{ .Date.Format "January 2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }},
+                {{ .Date.Format "2006" }}</time>
+              by {{ .Site.Author.name }}
+            </span>
           </li>
         {{ end }}
         {{ end }}
         </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Information</h2>
-        <p>
-          If you need to contact me feel free to email me
-          <a href="mailto:lukewhrit@proton.me">lukewhrit@proton.me</a>
-          or use the form below.
-        </p>
-        <form id="contact" class="" action="#" method="POST" accept-charset="UTF-8" enctype="multipart/form-data">
-          <input id="name" class="" type="text" placeholder="Your Name">
-          <input id="subject" class="" type="text" placeholder="Email Subject">
-
-          <textarea id="message" class="" placeholder="Content..."></textarea>
-
-          <input id="address" class="" name="email" type="text" placeholder="Your Email Address">
-
-          <input id="submit" class="" type="submit" value="Send Email" />
-        </form>
       </section>
   </article>
 {{ end }}

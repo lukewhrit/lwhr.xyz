@@ -1,0 +1,348 @@
+/*! wysiwyg.css v0.0.3 by jgthms modified for this site by Luke Whritenour  */
+
+:root {
+  --color-bg: #f0f0f0;
+  --color-text: #121212;
+  --color-links: #8d9eff;
+}
+
+@font-face {
+  font-family: 'Zodiak-Bold';
+  src: url('../fonts/Zodiak-Bold.woff2') format('woff2'),
+       url('../fonts/Zodiak-Bold.woff') format('woff'),
+       url('../fonts/Zodiak-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0 auto;
+  width: 49%;
+  height: 100%;
+  line-height: 1.6;
+  padding: 4rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: var(--color-links);
+}
+
+#article > p:nth-of-type(1):first-letter {
+  font-size: 350%;
+  float: left;
+  font-family: 'Zodiak';
+  padding: 5px;
+  margin-right: 5px;
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+abbr {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+cite {
+  font-style: italic;
+}
+
+hr {
+  background: #e6e6e6;
+  border: none;
+  display: block;
+  height: 1px;
+  margin-bottom: 1.4em;
+  margin-top: 1.4em;
+}
+
+img {
+  vertical-align: text-bottom;
+}
+
+ins {
+  background-color: lime;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff0;
+}
+
+small {
+  font-size: 0.8em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+sub,
+sup {
+  font-size: 0.8em;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
+}
+
+p, dl, ol, ul, blockquote, pre, table {
+  margin-bottom: 1.4em;
+}
+
+p:last-child, dl:last-child, ol:last-child, ul:last-child,
+blockquote:last-child, pre:last-child, table:last-child {
+  margin-bottom: 0;
+}
+
+p:empty {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  display: inline-block;
+  padding: 2% 8%;
+  font-family: 'Zodiak';
+  font-weight: 700;
+  line-height: 1.2;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 0.58333em;
+  margin-top: 0.58333em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.875em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 1.07692em;
+  margin-top: 1.07692em;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.16667em;
+  margin-top: 1.16667em;
+}
+
+h5 {
+  font-size: 1.1em;
+  margin-bottom: 1.27273em;
+  margin-top: 1.27273em;
+}
+
+h6 {
+  font-size: 1em;
+  margin-bottom: 1.4em;
+  margin-top: 1.4em;
+}
+
+dd {
+  margin-left: 1.4em;
+}
+
+ol, ul {
+  list-style-position: outside;
+  margin-left: 1.4em;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol {
+  list-style-type: lower-roman;
+}
+
+
+ol ol ol ol {
+  list-style-type: lower-greek;
+}
+
+ol ol ol ol ol {
+  list-style-type: decimal;
+}
+
+ol ol ol ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul {
+  list-style-type: square;
+}
+
+sul ul ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul ul ul {
+  list-style-type: disc;
+}
+
+ul ul ul ul ul ul {
+  list-style-type: circle;
+}
+
+#posts {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#posts li a {
+  font-size: 1.3em;
+  display: inline-block;
+  font-family: 'Zodiak';
+  border-bottom: 1px solid;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+#posts li a:hover {
+  border: none;
+}
+
+#posts li span {
+  margin-top: 5px;
+  display: block;
+}
+
+#posts li {
+  margin-bottom: 20px;
+}
+
+#metadata {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  border-left: 4px solid #e6e6e6;
+  padding: 0.6em 1.2em;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+code, kbd, samp, pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  font-size: 0.9em;
+}
+
+code, kbd, samp {
+  border-radius: 3px;
+  line-height: 1.77778;
+  padding: 0.1em 0.4em 0.2em;
+  vertical-align: baseline;
+}
+
+pre {
+  overflow: auto;
+  padding: 1em 1.2em;
+  border-radius: 5px;
+}
+
+pre code {
+  background: none;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+figure {
+  margin-bottom: 2.8em;
+  text-align: center;
+}
+
+figure:first-child {
+  margin-top: 0;
+}
+
+figure:last-child {
+  margin-bottom: 0;
+}
+
+figcaption {
+  font-size: 0.8em;
+  margin-top: 0.875em;
+}
+
+table {
+  width: 100%;
+}
+
+table pre {
+  white-space: pre-wrap;
+}
+
+th, td {
+  font-size: 1em;
+  padding: 0.7em;
+  border: 1px solid #e6e6e6;
+  line-height: 1.4;
+}
+
+thead tr, tfoot tr {
+  background-color: #f5f5f5;
+}
+
+thead th, thead td, tfoot th, tfoot td {
+  font-size: 0.9em;
+  padding: 0.77778em;
+}
+
+thead th code, thead td code, tfoot th code, tfoot td code {
+  background-color: #fff;
+}
+
+tbody tr {
+  background-color: #fff;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+}

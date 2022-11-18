@@ -1,7 +1,9 @@
 ---
-title: Luke Whritenour
+title: Hi, I'm Luke
 ---
 
-Hello, I'm Luke! I'm a computer science student from New Jersey. Most of my work is in Go and TypeScript since those are the two languages I’m the most experienced in.
+Hi, I'm Luke. I'm a teenage self-taught software engineer from New Jersey. in tellus eleifend vulputate. Nulla aliquam condimentum lorem id tincidunt. Nunc facilisis erat enim, id malesuada sem fringilla quis.
 
-Curabitur pharetra risus augue, ac semper nisi mattis at. Morbi lacinia, dolor vitae viverra ultricies, turpis purus varius odio, a rhoncus ex dui in elit. Curabitur lectus tellus, tincidunt ut felis vitae, tempor aliquet quam.
+Etiam cursus ipsum nulla, vitae tempus lectus molestie in. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur erat dolor, eget euismod dui convallis vitae. Maecenas vitae lorem convallis, dictum neque a, suscipit leo.
+
+[Want to talk? Try emailing me.](mailto:lukewhrit@proton.me)
