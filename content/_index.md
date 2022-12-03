@@ -2,8 +2,8 @@
 title: Hi, I'm Luke
 ---
 
-Hi, I'm Luke. I'm a teenage self-taught software engineer from New Jersey. in tellus eleifend vulputate. Nulla aliquam condimentum lorem id tincidunt. Nunc facilisis erat enim, id malesuada sem fringilla quis.
+Hey, I'm Luke. I'm a self taught software engineer and high school student. I'm the lead developer of [Spacebin](https://spaceb.in), [Redeyes](https://github.com/lukewhrit/redeyes), and more projects, along with being a recurring contributor to [Eve](https://github.com/ericzty/eve) and [ricky.cat](https://github.com/orca-group/ricky.cat).
 
-Etiam cursus ipsum nulla, vitae tempus lectus molestie in. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur erat dolor, eget euismod dui convallis vitae. Maecenas vitae lorem convallis, dictum neque a, suscipit leo.
+I began programming at age 12 and since then I've developed an interest in creating efficient, simplistic software with the goal of creating a better, more helpful internet.
 
-[Want to talk? Try emailing me.](mailto:lukewhrit@proton.me)
+[Want to talk? Email me!](mailto:lukewhrit@proton.me)
