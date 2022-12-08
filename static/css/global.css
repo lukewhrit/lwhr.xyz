@@ -89,3 +89,17 @@ footer {
   padding-top: 15px;
   text-align: center;
 }
+
+@media screen and (max-width: 980px) {
+  body {
+    width: 80%;
+    padding: 3rem 0.75rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    width: 90%;
+    padding: 1rem 0.5rem;
+  }
+}
