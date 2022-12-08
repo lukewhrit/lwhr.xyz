@@ -70,10 +70,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-bg);
   display: inline-block;
   padding: 2% 8%;
-  font-family: 'Zodiak';
+  font-family: Zodiak, 'Zodiak-Bold', Liberation Serif, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 700;
   line-height: 1.2;
   clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  text-align: center;
 }
 
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child,

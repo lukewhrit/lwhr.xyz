@@ -12,7 +12,7 @@ body {
 }
 
 @font-face {
-  font-family: 'Zodiak-Bold';
+  font-family: 'Zodiak';
   src: url('../fonts/Zodiak-Bold.woff2') format('woff2'),
        url('../fonts/Zodiak-Bold.woff') format('woff'),
        url('../fonts/Zodiak-Bold.ttf') format('truetype');
@@ -101,5 +101,14 @@ footer {
   body {
     width: 90%;
     padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    display: block;
+  }
+
+  #metadata {
+    gap: 15px;
+    flex-direction: column;
   }
 }
