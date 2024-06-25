@@ -16,7 +16,7 @@
           <time dateTime="{{ $dateTime }}">
             {{ .Date.Format "January 2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }},
             {{ .Date.Format "2006" }}</time>
-          by {{ .Site.Author.name }}
+          by {{ .Site.Params.Author.name }}
         </span>
       </li>
     {{ end }}
