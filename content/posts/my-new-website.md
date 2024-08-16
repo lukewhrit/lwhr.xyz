@@ -14,5 +14,3 @@ I built this website using [Hugo](https://gohugo.io). After attempts of building
 Still, I don't believe Hugo is perfect, and I still want to try and resurrect Scarecrow (my aforementioned home-made SSG). Until that day comes, though, Hugo is truly not all that bad. It does it's job well, I simply find it's interface cumbersome—as with many other alternatives.
 
 Perhaps if I do renovate Scarecrow, I'll publish an article outlining my approach to it's interface. To put it simply: most static site generators simply do too much, and include scores of unnecessary features or odd behaviors.
-
-**THAT'S ALL FOLKS, TIL NEXT TIME!**

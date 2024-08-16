@@ -1,4 +1,4 @@
-@import url('./markdown.css');
+@import url("./markdown.css");
 
 body {
   transition: background-color 0.5s;
@@ -12,13 +12,13 @@ body {
 }
 
 @font-face {
-  font-family: 'Zodiak';
-  src: url('../fonts/Zodiak-Bold.woff2') format('woff2'),
-       url('../fonts/Zodiak-Bold.woff') format('woff'),
-       url('../fonts/Zodiak-Bold.ttf') format('truetype');
-       font-weight: 700;
-       font-display: swap;
-       font-style: normal;
+  font-family: "Zodiak";
+  src: url("../fonts/Zodiak-Bold.woff2") format("woff2"),
+    url("../fonts/Zodiak-Bold.woff") format("woff"),
+    url("../fonts/Zodiak-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
 
 body {
@@ -44,7 +44,7 @@ a:hover {
 #article > p:nth-of-type(1):first-letter {
   font-size: 350%;
   float: left;
-  font-family: 'Zodiak';
+  font-family: "Zodiak";
   padding: 5px;
   margin-right: 5px;
 }
@@ -58,7 +58,7 @@ a:hover {
 #posts li a {
   font-size: 1.3em;
   display: inline-block;
-  font-family: 'Zodiak';
+  font-family: "Zodiak";
   border-bottom: 1px solid;
   font-weight: 700;
   color: var(--color-text);
@@ -91,8 +91,7 @@ footer {
 }
 
 #rightside {
-  margin-left: 300px;  /* match width of sidebar */
-
+  margin-left: 300px; /* match width of sidebar */
 }
 
 #sidebar {
@@ -115,7 +114,9 @@ footer {
 
 #sidebar #title {
   width: 256px;
-  font-family: Zodiak, 'Zodiak-Bold', Liberation Serif, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: Zodiak, "Zodiak-Bold", Liberation Serif, Apple Garamond,
+    Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   text-align: center;
   margin: 15px 0;
   padding: 0;
@@ -169,4 +170,34 @@ footer {
     gap: 15px;
     flex-direction: column;
   }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid var(--color-text);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.card * {
+  margin: 0;
+  padding: 0;
+}
+
+.card p:first-of-type {
+  font-size: 1.3em;
+  font-family: "Zodiak";
+  font-weight: 700;
+}
+
+#projects-grid {
+  margin-bottom: 1.4em;
 }
