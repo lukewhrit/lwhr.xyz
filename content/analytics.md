@@ -7,4 +7,4 @@ This website collects analytics via a self-hosted [Plausible](https://plausible.
 
 Information collected includes visit duration, bounce rate, referrer, pages visited, country, along with operating system, browser, and display size (desktop or mobile). Your information will never be sold to third parties is accessible solely to me. If you wish to not be included in analytics, you can disable JavaScript on the site via your browser. The site works 100% without JavaScript, except for the analytics script.
 
-Please understand this is a personal website and, unfortunately, I do not have the resources or neccessity to create a full Privacy Policy.
+Please understand this is a personal website and, unfortunately, I do not have the resources or necessity to create a full Privacy Policy.
