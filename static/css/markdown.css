@@ -19,6 +19,7 @@ hr {
 }
 
 img {
+  max-width: 400px;
   vertical-align: text-bottom;
 }
 
