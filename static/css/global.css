@@ -181,7 +181,7 @@ footer {
 .card {
   border: 1px solid var(--color-text);
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.3em;
@@ -198,6 +198,5 @@ footer {
   font-weight: 700;
 }
 
-#projects-grid {
-  margin-bottom: 1.4em;
-}
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }

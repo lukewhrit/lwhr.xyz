@@ -2,7 +2,14 @@ baseURL = 'https://lukewhrit.github.io/'
 languageCode = 'en-us'
 title = 'Luke Whritenour'
 enableRobotsTXT = true
+copyright = 'Copyright © 2024 Luke Whritenour'
 
 [params.author]
-name = "Luke Whritenour"
-email = "lukewhrit@proton.me"
+name = 'Luke Whritenour'
+email = 'lukewhrit@proton.me'
+
+[outputs]
+home = ['html']
+section = ['html', 'rss']
+taxonomy = ['html']
+term = ['html']

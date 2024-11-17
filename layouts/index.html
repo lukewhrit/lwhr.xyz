@@ -7,15 +7,12 @@
       <div id="spacebin" class="card">
         <p><a href="https://github.com/lukewhrit/spacebin">Spacebin</a></p>
         <p>Developed a reliable, modern Pastebin server in Go, supporting syntax highlighting, reader
-          more,
-          and more.
-          Handles 10,000+ monthly users.</p>
+          mode, and more. Handles 10,000+ monthly users.</p>
       </div>
       <div id="orca" class="card">
         <p><a href="https://github.com/orca-group">Orca Pages</a></p>
-        <p>Built a CDN and JAMstack hosting platform for open source projects and nonprofits using Elixir,
-          complete with
-          anycast DNS and integrated CMS.</p>
+        <p>Designed a CDN and JAMstack hosting platform for open source and nonprofits using Elixir,
+          complete with anycast DNS and integrated CMS.</p>
       </div>
       <div id="redeyes" class="card">
         <p><a href="https://github.com/lukewhrit/redeyes">Redeyes</a></p>
@@ -29,9 +26,13 @@
         </p>
       </div>
     </div>
+    <p><a href="/projects">View More Projects on Github</a></p>
   </section>
   <section id="posts">
-    <h2>Blog Posts</h2>
+      <h2 class="mb-0">Blog Posts</h2>
+      <p>
+        <a href="/posts/index.xml">Subscribe via RSS</a>
+      </p>
     <ul id="posts">
       {{ range (where .Site.Pages "Section" "posts") }}
       {{ range .Pages }}
@@ -45,7 +46,6 @@
             {{ .Date.Format "January 2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22)
             .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }},
             {{ .Date.Format "2006" }}</time>
-          by {{ .Site.Params.Author.name }}
         </span>
       </li>
       {{ end }}

@@ -57,10 +57,10 @@ p, dl, ol, ul, blockquote, pre, table {
   margin-bottom: 1.4em;
 }
 
-p:last-child, dl:last-child, ol:last-child, ul:last-child,
+/* p:last-child, dl:last-child, ol:last-child, ul:last-child,
 blockquote:last-child, pre:last-child, table:last-child {
   margin-bottom: 0;
-}
+} */
 
 p:empty {
   display: none;
