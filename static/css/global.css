@@ -264,3 +264,12 @@ a.no-style {
   align-items: center;
 }
 
+#index {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#title {
+  margin: 0;
+}
