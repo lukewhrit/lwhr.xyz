@@ -1,14 +1,15 @@
 @import url("./markdown.css");
 
-body {
-  transition: background-color 0.5s;
-}
-
 :root {
   --color-bg: #f0f0f0;
-  --color-text: rgba(18, 18, 18);
-  --color-text-hover: rgba(18, 18, 18, 0.8);
-  --color-gray: #e6e6e6;
+  --color-text: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #121212;
+    --color-text: #f0f0f0;
+  }
 }
 
 @font-face {
@@ -21,8 +22,11 @@ body {
   font-style: normal;
 }
 
-body {
+html {
   background-color: var(--color-bg);
+}
+
+body {
   color: var(--color-text);
   margin: 0 auto;
   width: 60%;
@@ -112,12 +116,17 @@ footer {
   height: 256px;
 }
 
+#projects-grid {
+  margin-bottom: 1.4em;
+}
+
 #sidebar #title {
   width: 256px;
   font-family: Zodiak, "Zodiak-Bold", Liberation Serif, Apple Garamond,
     Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   text-align: center;
+  color: var(--color-text);
   margin: 15px 0;
   padding: 0;
   font-size: 1.3em;
@@ -170,6 +179,10 @@ footer {
     gap: 15px;
     flex-direction: column;
   }
+
+  #github svg {
+    display: none;
+  }
 }
 
 .grid {
@@ -200,3 +213,54 @@ footer {
 
 .mt-0 { margin-top: 0; }
 .mb-0 { margin-bottom: 0; }
+
+#github {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  gap: 10px;
+}
+
+#github p {
+  margin: 0;
+  font-family: Zodiak, "Zodiak-Bold", Liberation Serif, Apple Garamond,
+    Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+#github svg {
+  width: 30px;
+  height: 30px;
+}
+
+a.no-style {
+  text-decoration: none;
+  border: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  border: 1px solid var(--color-text);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Zodiak";
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+#posts header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -2,6 +2,19 @@
 <html lang="en">
   {{- partial "head.html" . -}}
   <body>
+    {{ with resources.Get "scripts/themes.ts" }}
+    {{ if hugo.IsDevelopment }}
+      {{ with . | js.Build }}
+        <script src="{{ .RelPermalink }}"></script>
+      {{ end }}
+    {{ else }}
+      {{ $opts := dict "minify" true }}
+      {{ with . | js.Build $opts | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
     {{- partial "sidebar.html" . -}}
       <div id="rightside">
       {{- partial "header.html" . -}}

@@ -9,11 +9,7 @@
         <p>Developed a reliable, modern Pastebin server in Go, supporting syntax highlighting, reader
           mode, and more. Handles 10,000+ monthly users.</p>
       </div>
-      <div id="orca" class="card">
-        <p><a href="https://github.com/orca-group">Orca Pages</a></p>
-        <p>Designed a CDN and JAMstack hosting platform for open source and nonprofits using Elixir,
-          complete with anycast DNS and integrated CMS.</p>
-      </div>
+
       <div id="redeyes" class="card">
         <p><a href="https://github.com/lukewhrit/redeyes">Redeyes</a></p>
         <p>Simple and compact URL shortener using Python, Flask, and PostgreSQL that is self-hostable via
@@ -25,14 +21,31 @@
           virtualization servers.
         </p>
       </div>
+      <div id="github">
+        <p><a href="https://github.com/lukewhrit">View More on Github</a></p>
+        <a href="https://github.com/lukewhrit" class="no-style">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 16 16 12 12 8" />
+            <line x1="8" y1="12" x2="16" y2="12" />
+          </svg>
+        </a>
+      </div>
     </div>
-    <p><a href="/projects">View More Projects on Github</a></p>
   </section>
   <section id="posts">
+    <header>
       <h2 class="mb-0">Blog Posts</h2>
-      <p>
-        <a href="/posts/index.xml">Subscribe via RSS</a>
-      </p>
+      <a href="/posts/index.xml" class="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 11a9 9 0 0 1 9 9" />
+          <path d="M4 4a16 16 0 0 1 16 16" />
+          <circle cx="5" cy="19" r="1" />
+        </svg>
+      </a>
+    </header>
     <ul id="posts">
       {{ range (where .Site.Pages "Section" "posts") }}
       {{ range .Pages }}

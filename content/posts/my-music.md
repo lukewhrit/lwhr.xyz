@@ -3,7 +3,7 @@ title: My Music
 date: 2024-11-16
 ---
 
-Music is one of my oldest and most serious interests. There is a lot I could talk about with music but I don't plan on posting the majority of it here. You might find some articles about ideas like "Albums everyone should listen to" or "The iportance of folk music to American culture," but no album or song reviews ([with exception](/posts/cantaloop/)).
+Music is one of my oldest and most serious interests. There is a lot I could talk about with music but I don't plan on posting the majority of it here. You might find some articles about ideas like "Albums everyone should listen to" or "The importance of folk music to American culture," but no album or song reviews ([with exception](/posts/cantaloop/)).
 
 If you are looking for my thoughts on specific albums, you can find me on:
 
