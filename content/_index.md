@@ -2,8 +2,10 @@
 title: Hi, I'm Luke
 ---
 
-Hey, I'm Luke. I'm a self taught software engineer and high school senior. I'm the lead developer of [Spacebin](https://spaceb.in), [Redeyes](https://rdy.es), and a handful of other projects, along with being a recurring contributor to many more. My full resume and portfolio are available [here](https://drive.proton.me/urls/286ATQDA6G#6BCIs3cV8MJf) and on [Github](https://github.com/lukewhrit).
+I’m a self-taught software engineer and high school senior with a passion for building clean, efficient tools that make the internet less frustrating and more accessible. I’m the lead developer of Spacebin, Redeyes, and a handful of other projects, and I regularly contribute to open-source software like Eve.
 
-I began programming at age 12. Since then, I've developed a lot of different websites, chatbots, and other projects. Recently, I've begun to focus on creating software with the intent to replace the overcomplicated software and make the internet less frustrating. My projects see 10,000+ monthly users and solve problems in many fields.
+I started programming at age 12, and since then I’ve built a variety of websites, chatbots, and utilities that aim to replace overcomplicated software with simpler, more focused alternatives. My projects now serve over 10,000 monthly users and solve real problems across different domains.
 
-If you are interested in working together, or simply chatting, please send me an email: [lukewhrit@proton.me](mailto:lukewhrit@proton.me)
+You can check out my [resume](https://drive.proton.me/urls/286ATQDA6G#6BCIs3cV8MJf) and [GitHub](https://github.com/lukewhrit) to learn more about what I’ve been working on.
+
+If you’re interested in collaborating—or just want to say hi—feel free to reach out at [lukewhrit@proton.me](mailto:lukewhrit@proton.me).
