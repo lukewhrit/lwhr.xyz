@@ -13,3 +13,7 @@ home = ['html']
 section = ['html', 'rss']
 taxonomy = ['html']
 term = ['html']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
