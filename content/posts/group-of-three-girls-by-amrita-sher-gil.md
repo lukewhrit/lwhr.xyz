@@ -1,5 +1,5 @@
 ---
-title: "Group of Three Girls"
+title: "Analysis of Group of Three Girls"
 date: 2024-09-05
 ---
 
@@ -13,4 +13,4 @@ The girls look down, in deep thought, "contemplating a destiny they could not ch
 
 [![Painting Group of Three Girls by Amrita Sher-Gil](/images/three-girls.jpeg)](https://artsandculture.google.com/asset/group-of-three-girls/wwH6P_d83npQIg?hl=en)
 
-*I wrote this analysis of the painting Three Girls by Amrita Sher-Gil for English class for my senior year. I am proud of this work and thought I would post it here.*
+*I wrote this analysis of the painting Three Girls by Amrita Sher-Gil for English class for my senior year.*

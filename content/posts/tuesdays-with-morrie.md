@@ -1,5 +1,5 @@
 ---
-title: "Tuesdays with Morrie"
+title: "Book Review: Tuesdays with Morrie"
 date: 2024-11-14
 ---
 
@@ -19,4 +19,4 @@ What Morrie means by "once you learn how to die, you learn how to live" is proba
 
 Throughout their many conversations, Mitch and Morrie have created somewhat of a guide on how to die and a manifesto on how to live. I believe we, as humans, all need something like that.
 
-*I wrote this book report about Tuesdays with Morrie for English class for my senior year. I am proud of this work and thought I would post it here.*
+*I wrote this book report about Tuesdays with Morrie for English class for my senior year.*
