@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/css/normalize.css" />
   <link rel="stylesheet" href="/css/global.css" />
 
-  <script defer data-domain="lwhr.xyz" src="https://plausible.lwhr.xyz/js/script.js"></script>
+  <script defer src="https://umami.lwhr.xyz/script.js" data-website-id="35a71211-5f62-4b78-96cc-c3d8600b4989"></script>
 
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
