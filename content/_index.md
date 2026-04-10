@@ -2,7 +2,7 @@
 title: Hi, I'm Luke
 ---
 
-I'm a freshman Computer Science and Data Science *(and English minor!)* student at [Worcester Polytechnic Institute](htttps://www.wpi.edu). I'm a software engineer interested in building clean, high-performance software with a focus on simplicity and accessibility. 
+I'm a freshman Computer Science and Data Science student at [Worcester Polytechnic Institute](htttps://www.wpi.edu). I'm a software engineer interested in building clean, high-performance software with a focus on simplicity and accessibility. 
 
 I'm the lead developer of Spacebin, a modern pastebin server in Go that serves around 10,000 monthly users, and GoatRide, a campus ridesharing platform built with Next.js and TypeScript. My technical background spans full-stack web development, systems programming in C/C++, and cloud-based deployment with Docker.
 
