@@ -5,12 +5,12 @@
   --color-text: #121212;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: #121212;
     --color-text: #f0f0f0;
   }
-}
+} */
 
 @font-face {
   font-family: "Zodiak";
