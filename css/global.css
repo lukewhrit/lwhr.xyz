@@ -1,16 +1,9 @@
 @import url("./markdown.css");
 
 :root {
-  --color-bg: #f0f0f0;
+  --color-bg: #f1e9d2;
   --color-text: #121212;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #121212;
-    --color-text: #f0f0f0;
-  }
-} */
 
 @font-face {
   font-family: "Zodiak";
