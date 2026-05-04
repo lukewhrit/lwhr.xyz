@@ -1,8 +1,8 @@
-baseURL = 'https://lukewhrit.github.io/'
+baseURL = 'https://lwhr.xyz/'
 locale = 'en-US'
 title = 'Luke Whritenour'
 enableRobotsTXT = true
-copyright = 'Copyright © 2024 Luke Whritenour'
+copyright = 'Copyright © 2026 Luke Whritenour'
 
 [params.author]
 name = 'Luke Whritenour'
